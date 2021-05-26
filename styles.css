@@ -1,63 +1,86 @@
 header {
     background-color: #f2f2f2;
     height: 100px;
-    margin:auto;
+    margin: auto;
     padding-top: 54px;
 }
-body{
+
+body {
     margin: 40px;
+    margin-left: 60px;
     background-image: url("images/light_honeycomb.png");
 }
-  p {
+
+p {
     color: #353C09;
-    font-size: 26px;
-  }
-  html {
     font-size: 20px;
-  }
-  h1 {
-    font-size:40px;
+}
+
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
     margin: 0;
     color: #781169;
     text-align: center;
-  }  
-  h2 {
+}
+
+h2 {
     font-size: 30px;
     text-align: center;
     color: #424B0B;
-  }
-  h3 {
+}
+
+h3 {
     display: block;
     font-size: 1.17em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;  
-  }
-  footer {
-    color: #424B0B
-    text-align: center;
-  }
+    font-weight: bold;
+}
 
-  div.figure {
+footer {
+    color: #424B0B;
+    text-align: center;
+}
+
+div.figure {
     float: right;
     width: 30%;
     text-align: center;
-    font-style: italic;
     font-size: smaller;
     text-indent: 0;
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
-  }
-  #gr
-#momande {
-    position: relative;
     overflow: hidden;
-    width:200px;
-    height: 266.672px;
-    float: right;
-    border-radius: 3%;
-    margin: 20px;    
+    display: inline-table;
+}
+
+img.scaled {
+    width: 100%;
+}
+
+#grandmaCaption {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#momande {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.footer,
+.push {
+    height: 100px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
 }
