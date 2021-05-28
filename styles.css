@@ -132,3 +132,7 @@ section{
     margin-top: 3%;
     vertical-align: center;
 }
+
+#home{
+   float:left;
+}
