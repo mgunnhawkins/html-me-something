@@ -1,22 +1,25 @@
 header {
-    background-color: #f2f2f2;
+    background-color: RGB(242,242,242,.5);
     height: 100px;
     margin: auto;
     padding-top: 54px;
+    Font-Family: 'Slabo 13px', Serif;
+    Font-Size: 48px;
 }
 
-body {
+html, body {
     margin: 60px;
     background-image: url("images/light_honeycomb.png");
+    Font-Family: 'Lato', Sans-Serif;
+    Font-Size: 16px;
+    height: 100%;
 }
+
 
 p {
     color: #353C09;
     font-size: 20px;
-}
-
-html {
-    font-size: 20px;
+    
 }
 
 h1 {
@@ -30,6 +33,7 @@ h2 {
     font-size: 30px;
     text-align: center;
     color: #424B0B;
+    text-decoration: underline;
 }
 
 h3 {
@@ -39,49 +43,44 @@ h3 {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 section h3 {
     color: #781169
 }
 
-figure {
+figure { 
     float: right;
     width: 30%;
     text-align: center;
     font-size: medium;
-    font-weight: bold;
+    font-weight: bolder;
     color: #424B0B;
     text-indent: 0;
     border: thin silver solid;
-    margin: 0.5em;
+    margin: 30px;
     padding: 0.5em;
     overflow: hidden;
     display: inline-table;
 }
 
 footer {
-    color: #424B0B;
-    text-align: center;
+    background-color: RGB(242,242,242,.5);
+    padding: 0px;  
+}
+
+section{
+    padding-bottom: 40px;
+    font-size: 1rem;
 }
 
 
 /*Class Selectors*/
 
-.footer,
-.push {
-    height: 100px;
-}
-
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -100px;
-}
 
 .button {
-    background-color: #697811;
-    opacity: .2;
+    background-color: RGB(105, 120, 17, .5);
     border: 2px solid black;
     color: black;
     padding: 15px 32px;
@@ -89,6 +88,16 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    clear: both;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+    padding-bottom: 100px;
+}
+.clear{
+    clear: both;
+    padding-bottom: 1%;
 }
 
 
@@ -102,9 +111,24 @@ footer {
 #momandeimg {
     width: 200px;
     height: 100%;
-    align: center
+    text-align: center
 }
 
 #clickHere {
     color: black
+}
+#construction{
+    width: 100%;
+    padding: 2rem;
+}
+#CGTitle{
+    padding-top: 1rem;
+}
+#footerText{
+    color: #424B0B;
+    Font-Family: 'Slabo 13px', Serif;
+    Font-Size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    vertical-align: center;
 }
